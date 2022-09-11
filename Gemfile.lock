@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    ontology (0.0.0)
+      httparty (~> 0.20.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,10 +16,11 @@ GEM
     multi_xml (0.6.0)
 
 PLATFORMS
-  x86_64-linux
+  arm64-darwin-21
 
 DEPENDENCIES
   httparty (= 0.20.0)
+  ontology!
 
 BUNDLED WITH
    2.3.4
